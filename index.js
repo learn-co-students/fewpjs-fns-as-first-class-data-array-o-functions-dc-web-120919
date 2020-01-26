@@ -5,9 +5,10 @@ const routine = [wakeDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashD
 
 
 // practice with function expression and arrow function 
+//forEach doesn't work here, using map
 
 function exerciseDog(dog, breed){
-    return routine.map( functionElement => functionElement(dog, breed)); 
+    return routine.map(element => element(dog, breed)); 
 }
 
 
