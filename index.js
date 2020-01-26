@@ -7,7 +7,7 @@ const routine = [wakeDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashD
 // practice with function expression and arrow function 
 
 function exerciseDog(dog, breed){
-    return routine.map( iteratorFunction => iteratorFunction(dog, breed)); 
+    return routine.map( functionElement => functionElement(dog, breed)); 
 }
 
 
